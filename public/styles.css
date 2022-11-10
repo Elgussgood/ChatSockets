@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat Medium500', sans-serif;
+}
+body{
+    background-color: blueviolet;
+}
+#Cuerpo{
+    width: 50rem;
+    height: 40rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    position: relative;
+    top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    color: aliceblue;
+}
+#Title{
+    font-size: 50px;
+    margin: 1rem;
+}
+#Usuarios{
+    padding: 1rem;
+    background-color: aqua;
+    position: relative;
+    margin: .5rem;
+    width: 16rem;
+}
+#chat{
+    margin-left: 15rem;
+}
+
