@@ -8,7 +8,9 @@ body{
 }
 #Cuerpo{
     width: 50rem;
-    height: 40rem;
+    min-height: 40rem;
+    max-height: 870px;
+    height: auto;
     padding: 2rem;
     border-radius: 1rem;
     position: relative;
@@ -23,13 +25,27 @@ body{
     margin: 1rem;
 }
 #Usuarios{
+    overflow:auto;
     padding: 1rem;
     background-color: aqua;
-    position: relative;
-    margin: .5rem;
-    width: 16rem;
+    width: 17.5rem;
+    height: auto;
+    border-radius: 1rem;
+    margin: 1rem;
 }
 #chat{
-    margin-left: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Chatbody{
+    max-height: 870px;
+    min-height: 40rem;
+    height: auto;
+    position: absolute;
+    border-radius: 1rem;
+    background-color: green;
+    margin-left: 22.5rem;
+    top: 7.7rem;
+    padding: 1rem;
 }
 
