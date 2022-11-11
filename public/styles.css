@@ -8,13 +8,13 @@ body{
 }
 #Cuerpo{
     width: 50rem;
-    min-height: 40rem;
+    min-height: 32rem;
     max-height: 870px;
     height: auto;
     padding: 2rem;
     border-radius: 1rem;
     position: relative;
-    top: 3rem;
+    top: 2rem;
     margin-left: auto;
     margin-right: auto;
     background-color: #000;
@@ -22,30 +22,52 @@ body{
 }
 #Title{
     font-size: 50px;
-    margin: 1rem;
+    margin-left: 16rem;
 }
 #Usuarios{
     overflow:auto;
     padding: 1rem;
     background-color: aqua;
-    width: 17.5rem;
+    width: 13rem;
     height: auto;
+    max-height: 26rem;
     border-radius: 1rem;
     margin: 1rem;
+    max-height: 31rem;
 }
 #chat{
     margin-left: auto;
     margin-right: auto;
 }
 #Chatbody{
-    max-height: 870px;
-    min-height: 40rem;
-    height: auto;
+    overflow:auto;
+    height: 26rem;
     position: absolute;
     border-radius: 1rem;
     background-color: green;
-    margin-left: 22.5rem;
-    top: 7.7rem;
+    margin-left: 17.5rem;
+    top: 6.7rem;
     padding: 1rem;
+    width: 30rem;
+    line-break: anywhere;
 }
-
+#Usuario{
+    position: absolute;
+    top: 25.8rem;
+    width: 10rem;
+}
+#Mensaje{
+    position: absolute;
+    top: 25.8rem;
+    margin-left: 10.5rem;
+    width: 16.2rem;
+}
+#Titlechat{
+    margin-left: 12rem;
+}
+#Enviar{
+    position: absolute;
+    top: 25.8rem;
+    margin-left: 27.2rem;
+    
+}
