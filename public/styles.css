@@ -136,3 +136,17 @@ body{
 	transform: scale(1000);
 	background: #1ABC9C;
 }
+.mio{
+    position: relative;
+    background-color: yellow;
+    border-radius: 1rem;
+    float:right;
+    margin-left: 10rem;
+    margin-bottom: .5rem;
+    max-width: 15rem;
+    min-width: 1rem;
+    min-height: 1rem;
+    width: auto;
+    height: auto;
+    padding: .5rem;
+}

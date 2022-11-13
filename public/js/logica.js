@@ -29,8 +29,12 @@ mensaje.addEventListener('keydown', function () {
 });
 
 socket.on('chat:mensaje', function (data) {
-  salida.innerHTML +=
-    '<b>' + data.usuario + '</b>: ' + data.mensaje + '<br>';
+  var mes = document.createElement("div")
+  
+  mes.classList.add("mio");
+  mes.innerHTML+=
+    '<div>'+ '<b>' + data.usuario + '</b>: ' + data.mensaje + '</div>';
+  salida.appendChild(mes)
   Avisos.innerHTML = '';
 });
 
