@@ -138,7 +138,7 @@ body{
 }
 .mio{
     position: relative;
-    background-color: yellow;
+    background-color: #717C00;
     border-radius: 1rem;
     float:right;
     margin-left: 10rem;
@@ -149,4 +149,15 @@ body{
     width: auto;
     height: auto;
     padding: .5rem;
+}
+#Avisos{
+    position: relative;
+    float:right;
+    margin-left: 10rem;
+    margin-bottom: .5rem;
+    max-width: 15rem;
+    min-width: 1rem;
+    min-height: 1rem;
+    width: auto;
+    height: auto;
 }
